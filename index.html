@@ -6,26 +6,26 @@
     <title>SwiftRate Pro - Professional Hourly Rate Calculator for Freelancers</title>
     <meta name="description" content="Calculate your freelance rates instantly. SwiftRate Pro helps freelancers and contractors determine daily, weekly, monthly, and yearly rates with custom profiles. No tracking, no accounts.">
     <meta name="keywords" content="hourly rate calculator, freelance rate calculator, contractor rates, hourly to yearly salary, rate calculator app, freelancer tools, consultant rates">
-    
+   
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://biklgirmagic.github.io/swiftratepro/">
     <meta property="og:title" content="SwiftRate Pro - Calculate Your Freelance Worth Instantly">
     <meta property="og:description" content="Transform your hourly rate into comprehensive earnings projections. Free download, no tracking, no subscriptions.">
     <meta property="og:image" content="og-image.png">
-    
+   
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://biklgirmagic.github.io/swiftratepro/">
-    <meta property="twitter:title" content="SwiftRate Pro - Calculate Your Freelance Worth Instantly">
+    <meta property:twitter:title" content="SwiftRate Pro - Calculate Your Freelance Worth Instantly">
     <meta property="twitter:description" content="Transform your hourly rate into comprehensive earnings projections. Free download, no tracking, no subscriptions.">
     <meta property="twitter:image" content="og-image.png">
-    
+   
     <!-- iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="default">
     <meta name="apple-mobile-web-app-title" content="SwiftRate Pro">
-    
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -534,8 +534,25 @@
             opacity: 1;
             transform: translateY(0);
         }
+        /* Feature: Footer CTA Styling */
+        .footer-cta .cta-button:hover {
+            background: var(--coral);
+            color: white;
+        }
+        @media (max-width: 768px) {
+            .footer-cta {
+                padding: 20px;
+            }
+            .footer-cta h3 {
+                font-size: 20px;
+            }
+            .footer-cta .cta-button {
+                padding: 10px 20px;
+                font-size: 16px;
+            }
+        }
     </style>
-    
+   
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
     {
@@ -556,6 +573,14 @@
       },
       "description": "SwiftRate Pro helps freelancers calculate their hourly rates into daily, weekly, monthly, and yearly earnings. Features multiple profile support, custom work schedules, and built-in calculator. No tracking, no accounts required."
     }
+    </script>
+    <!-- Feature: Analytics Placeholder (Add your Google Analytics ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
     </script>
 </head>
 <body>
@@ -582,7 +607,7 @@
         <div class="container">
             <h2 class="section-title">Everything You Need to Price Yourself Right</h2>
             <p class="section-subtitle">Powerful features designed specifically for freelancers, contractors, and independent professionals.</p>
-           
+          
             <div class="features-grid">
                 <div class="feature-card fade-in">
                     <div class="feature-icon">⚡</div>
@@ -622,26 +647,26 @@
         <div class="container">
             <h2 class="section-title">See It In Action</h2>
             <p class="section-subtitle">A complete toolkit for managing your freelance rates</p>
-           
+          
             <div class="screenshots-grid">
                 <div class="screenshot-item fade-in">
                     <img src="hero-screenshot.png" alt="Rate Calculator" />
                     <h3>Quick Rate Calculations</h3>
                     <p>See your earning potential across all timeframes instantly</p>
                 </div>
-               
+              
                 <div class="screenshot-item fade-in">
                     <img src="calculator-screenshot.png" alt="Calculator" />
                     <h3>Full Calculator</h3>
                     <p>Do math without switching apps</p>
                 </div>
-               
+              
                 <div class="screenshot-item fade-in">
                     <img src="schedule-screenshot.png" alt="Work Schedule" />
                     <h3>Custom Schedule</h3>
                     <p>Match your actual working hours and weeks</p>
                 </div>
-               
+              
                 <div class="screenshot-item fade-in">
                     <img src="profiles-screenshot.png" alt="Saved Profiles" />
                     <h3>Multiple Profiles</h3>
@@ -660,7 +685,7 @@
                 <div class="profiles-text fade-in">
                     <h2>Manage Multiple Rate Structures</h2>
                     <p>Freelancers juggle different rates for different clients and project types. SwiftRate Pro makes it simple.</p>
-                   
+                  
                     <ul class="profiles-list">
                         <li>Create unlimited rate profiles for different services</li>
                         <li>Quick-switch between clients and projects</li>
@@ -673,28 +698,35 @@
             </div>
         </div>
     </section>
-    <!-- How It Works -->
-    <section class="how-it-works">
-        <div class="container">
-            <h2 class="section-title">Three Steps to Know Your Value</h2>
-           
-            <div class="steps">
-                <div class="step fade-in">
-                    <div class="step-number">1</div>
-                    <h3>Enter Your Rate</h3>
-                    <p>Type in your hourly rate. SwiftRate Pro supports any currency and amount.</p>
-                </div>
-                <div class="step fade-in">
-                    <div class="step-number">2</div>
-                    <h3>See Your Numbers</h3>
-                    <p>Instantly view your daily, weekly, monthly, and yearly earning potential. Customize hours and days to match your schedule.</p>
-                </div>
-                <div class="step fade-in">
-                    <div class="step-number">3</div>
-                    <h3>Save & Switch</h3>
-                    <p>Store unlimited rate profiles for different projects and clients. Switch between them with a tap.</p>
-                </div>
-            </div>
+    <!-- Feature: Job Board Teaser -->
+    <section class="job-board-section" style="padding: 80px 20px; background: var(--powder); text-align: center;">
+        <h2 class="section-title">Find Freelance Jobs</h2>
+        <p class="section-subtitle">Explore opportunities tailored for freelancers. Coming soon—support development with a tip!</p>
+        <a href="#" class="cta-button" style="display: inline-block; padding: 12px 30px;">Learn More</a>
+    </section>
+    <!-- Feature: CV File Teaser -->
+    <section class="cv-section" style="padding: 80px 20px; background: var(--white); text-align: center;">
+        <h2 class="section-title">Export Your Rates</h2>
+        <p class="section-subtitle">Create a CV with your calculated rates. Coming soon—tip to unlock!</p>
+        <a href="#" class="cta-button" style="display: inline-block; padding: 12px 30px;">Coming Soon</a>
+    </section>
+    <!-- Feature: Newsletter Signup -->
+    <section class="newsletter-section" style="padding: 80px 20px; background: var(--powder); text-align: center;">
+        <h2 class="section-title">Stay Updated</h2>
+        <p class="section-subtitle">Join our newsletter for rate-setting tips and SwiftRate Pro updates. Get your free 'Freelancer’s Rate-Setting Guide'!</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST" style="max-width: 500px; margin: 0 auto;">
+            <input type="email" name="email" placeholder="Enter your email" required style="width: 70%; padding: 12px; border: 1px solid var(--slate-light); border-radius: 25px; margin-right: 10px;">
+            <button type="submit" style="padding: 12px 25px; background: var(--mint); color: white; border: none; border-radius: 25px; cursor: pointer;">Subscribe</button>
+        </form>
+        <p style="font-size: 12px; color: var(--slate-light); margin-top: 10px;">We respect your privacy. No spam, ever.</p>
+    </section>
+    <!-- Feature: Social Proof/Testimonials Placeholder -->
+    <section class="testimonials-section" style="padding: 80px 20px; background: var(--cream); text-align: center;">
+        <h2 class="section-title">What Freelancers Say</h2>
+        <p class="section-subtitle">Over 1,000 downloads and growing! Here’s what users love about SwiftRate Pro.</p>
+        <div style="margin-top: 20px;">
+            <p style="font-style: italic; color: var(--slate-light);">"Life-changing tool for pricing my gigs!" - Jane D.</p>
+            <!-- Add more testimonials as you collect them -->
         </div>
     </section>
     <!-- CTA Section -->
@@ -708,8 +740,14 @@
             </div>
         </div>
     </section>
-    <!-- Footer -->
+    <!-- Feature: Footer CTA -->
     <footer>
+        <div class="footer-cta" style="padding: 30px 20px; background: var(--mint); text-align: center; margin-bottom: 40px;">
+            <h3 style="color: white; font-size: 24px; margin-bottom: 20px;">Ready to Calculate Your Worth?</h3>
+            <a href="https://apps.apple.com/us/app/swiftrate-pro/id6755165696" class="cta-button" style="display: inline-block; padding: 12px 30px; background: white; color: var(--slate); border-radius: 25px; text-decoration: none; font-weight: 700; transition: background 0.3s;">
+                Download Now
+            </a>
+        </div>
         <div class="footer-content">
             <div class="footer-section">
                 <h4>SwiftRate Pro</h4>
